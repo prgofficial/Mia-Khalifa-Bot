@@ -25,7 +25,7 @@
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
-         "value": "False"
+         "value": "True"
          
       },
       "GBAN_LOGS": {	
@@ -59,27 +59,10 @@
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
          "value": "557639247"
-      },
-      "CASH_API_KEY": {
-         "description": "Required for currency converter",
-         "required": false,
-         "value": "-xyz"
-      },
-      "TIME_API_KEY": {
-         "description": "Required for timezone information",
-         "value": "-xyz"
-      },
-       "LASTFM_API_KEY": {
-         "description": "Required for lastfm plugin",
-         "value": "-xyz"
-      },
+      }, 
        "START_IMG": {
          "description": "Image shows when hit /start",
          "value": "https://telegra.ph/file/262c433b646b60a81cf72.jpg"    
-      },
-      "API_OPENWEATHER": {
-         "description": "Required for weather information",
-         "value": "-xyz"
       },
       "PORT": {
          "description": "Port to use for your webhooks.",
@@ -125,12 +108,7 @@
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
          "value": "557639247"
-      },
-      "WALL_API":{
-         "description": "Enter wall api",
-         "required": false,
-         "value": ""
-      },
+      }, 
       "LYDIA_API": {
          "description": "Put here lydia API.",
          "required": false,
