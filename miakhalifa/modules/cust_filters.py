@@ -143,7 +143,7 @@ def filters(bot: Bot, update: Update):
             dispatcher.remove_handler(handler, HANDLER_GROUP)
        
      all_handlers = sql.get_chat_triggers(chat.id)
-        if len(all_handlers)>300:
+        if len(all_handlers)>5:
            msg.reply_text("limit ethy mone")
            return
 
